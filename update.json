@@ -1,15 +1,11 @@
 {
   "date": "2026-11-24",
   "fileId": "",
-  "notes": "Mousike 1.3.3 — kredit Deki_niswara, laporan bug dan saran melalui Telegram @Dark_System2x, QRIS baru, serta pembaruan melalui GitHub Releases.",
-  "size": 16345858,
-  "sizeArm64": 16345858,
-  "sizeV7a": 16345858,
-  "sizeX64": 16345858,
-  "url": "https://github.com/Nizwarax/Mousike/releases/download/v1.3.3/Mousike-v1.3.3.apk",
-  "urlArm64": "https://github.com/Nizwarax/Mousike/releases/download/v1.3.3/Mousike-v1.3.3.apk",
-  "urlV7a": "https://github.com/Nizwarax/Mousike/releases/download/v1.3.3/Mousike-v1.3.3.apk",
-  "urlX64": "https://github.com/Nizwarax/Mousike/releases/download/v1.3.3/Mousike-v1.3.3.apk",
-  "versionCode": 68,
-  "versionName": "1.3.3"
+  "notes": "Mousike 1.5.8 — hanya untuk arm64-v8a. Kredit Deki_niswara, GitHub Nizwarax/Mousike, dan QRIS baru. Dipatch dari binary v1.5.8.",
+  "size": 8534299,
+  "sizeArm64": 8534299,
+  "url": "https://github.com/Nizwarax/Mousike/releases/download/nizwarax-1.5.8/Mousike-v1.5.8-arm64-v8a-Nizwarax.apk",
+  "urlArm64": "https://github.com/Nizwarax/Mousike/releases/download/nizwarax-1.5.8/Mousike-v1.5.8-arm64-v8a-Nizwarax.apk",
+  "versionCode": 121,
+  "versionName": "1.5.8"
 }
