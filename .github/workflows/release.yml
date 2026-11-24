@@ -24,6 +24,11 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: ''
+
+      - name: Install required Android SDK packages
+        run: sdkmanager 'platform-tools' 'platforms;android-35' 'build-tools;35.0.1'
 
       - name: Configure release signing
         shell: bash
@@ -60,7 +65,8 @@ jobs:
           cp app/build/outputs/apk/release/app-release.apk "Mousike-v${VERSION_NAME}.apk"
           zip -qr "Mousike-v${VERSION_NAME}-source.zip" . \
             -x './.git/*' './.gradle/*' './.kotlin/*' './app/build/*' './build/*' \
-               './local.properties' './keystore-final.properties' './release-signing.jks' \
+               './local.properties' './keystore.properties' './keystore-final.properties' \
+               './release-signing.jks' './Mousike-v*.apk' './Mousike-v*-source.zip' \
                './*.jks' './*.keystore' './*.p12'
 
       - name: Publish GitHub Release
