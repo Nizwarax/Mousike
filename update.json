@@ -1,11 +1,11 @@
 {
   "date": "2026-11-25",
   "fileId": "",
-  "notes": "Login Google dan sinkronisasi akun diperbarui. Selama proses Google masih dalam mode uji, akses hanya tersedia untuk akun penguji. ARM64-v8a.",
+  "notes": "Login Google dan sinkronisasi akun telah diperbarui. Selama tahap pengujian Google, akses masuk masih terbatas pada akun yang diizinkan. ARM64-v8a.",
   "size": 8663694,
   "sizeArm64": 8663694,
-  "url": "https://github.com/Nizwarax/Mousike/releases/download/nizwarax-1.5.8-code124/Mousike-v1.5.8-arm64-v8a-Nizwarax-code124.apk",
-  "urlArm64": "https://github.com/Nizwarax/Mousike/releases/download/nizwarax-1.5.8-code124/Mousike-v1.5.8-arm64-v8a-Nizwarax-code124.apk",
-  "versionCode": 124,
+  "url": "https://github.com/Nizwarax/Mousike/releases/download/nizwarax-1.5.8-code125/Mousike-v1.5.8-arm64-v8a-Nizwarax-code125.apk",
+  "urlArm64": "https://github.com/Nizwarax/Mousike/releases/download/nizwarax-1.5.8-code125/Mousike-v1.5.8-arm64-v8a-Nizwarax-code125.apk",
+  "versionCode": 125,
   "versionName": "1.5.8"
 }

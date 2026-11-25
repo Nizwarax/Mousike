@@ -1,0 +1,110 @@
+.class public final synthetic Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/media3/session/MediaSessionLegacyStub$SessionTask;
+
+
+# instance fields
+.field public final synthetic $r8$classId:I
+
+.field public final synthetic f$0:Landroidx/media3/session/MediaSessionLegacyStub;
+
+.field public final synthetic f$1:J
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/media3/session/MediaSessionLegacyStub;JI)V
+    .locals 0
+
+    .line 1
+    iput p4, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->$r8$classId:I
+
+    iput-object p1, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->f$0:Landroidx/media3/session/MediaSessionLegacyStub;
+
+    iput-wide p2, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->f$1:J
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run(Landroidx/media3/session/MediaSession$ControllerInfo;)V
+    .locals 2
+
+    .line 1
+    iget p1, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->$r8$classId:I
+
+    .line 2
+    .line 3
+    packed-switch p1, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object p1, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->f$0:Landroidx/media3/session/MediaSessionLegacyStub;
+
+    .line 7
+    .line 8
+    iget-object p1, p1, Landroidx/media3/session/MediaSessionLegacyStub;->sessionImpl:Landroidx/media3/session/MediaSessionImpl;
+
+    .line 9
+    .line 10
+    iget-object p1, p1, Landroidx/media3/session/MediaSessionImpl;->playerWrapper:Landroidx/media3/session/PlayerWrapper;
+
+    .line 11
+    .line 12
+    iget-wide v0, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->f$1:J
+
+    .line 13
+    .line 14
+    long-to-int v0, v0
+
+    .line 15
+    invoke-virtual {p1, v0}, Landroidx/media3/session/PlayerWrapper;->seekToDefaultPosition(I)V
+
+    .line 16
+    .line 17
+    .line 18
+    return-void
+
+    .line 19
+    :pswitch_0
+    iget-object p1, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->f$0:Landroidx/media3/session/MediaSessionLegacyStub;
+
+    .line 20
+    .line 21
+    iget-object p1, p1, Landroidx/media3/session/MediaSessionLegacyStub;->sessionImpl:Landroidx/media3/session/MediaSessionImpl;
+
+    .line 22
+    .line 23
+    iget-object p1, p1, Landroidx/media3/session/MediaSessionImpl;->playerWrapper:Landroidx/media3/session/PlayerWrapper;
+
+    .line 24
+    .line 25
+    iget-wide v0, p0, Landroidx/media3/session/MediaSessionLegacyStub$$ExternalSyntheticLambda7;->f$1:J
+
+    .line 26
+    .line 27
+    invoke-virtual {p1, v0, v1}, Landroidx/media3/session/PlayerWrapper;->seekTo(J)V
+
+    .line 28
+    .line 29
+    .line 30
+    return-void
+
+    .line 31
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+.end method
