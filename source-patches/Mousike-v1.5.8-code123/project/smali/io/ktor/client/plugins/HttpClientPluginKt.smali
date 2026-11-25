@@ -1,0 +1,74 @@
+.class public abstract Lio/ktor/client/plugins/HttpClientPluginKt;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final PLUGIN_INSTALLED_LIST:Lio/ktor/util/AttributeKey;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    const-class v0, Lio/ktor/util/ConcurrentSafeAttributes;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/jvm/internal/ClassReference;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    :try_start_0
+    invoke-static {v0}, Lkotlin/jvm/internal/Reflection;->typeOf(Ljava/lang/Class;)Lkotlin/jvm/internal/TypeReference;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 11
+    goto :goto_0
+
+    .line 12
+    :catchall_0
+    const/4 v0, 0x0
+
+    .line 13
+    :goto_0
+    new-instance v2, Lio/ktor/util/reflect/TypeInfo;
+
+    .line 14
+    .line 15
+    invoke-direct {v2, v1, v0}, Lio/ktor/util/reflect/TypeInfo;-><init>(Lkotlin/reflect/KClass;Lkotlin/jvm/internal/TypeReference;)V
+
+    .line 16
+    .line 17
+    .line 18
+    new-instance v0, Lio/ktor/util/AttributeKey;
+
+    .line 19
+    .line 20
+    const-string v1, "ApplicationPluginRegistry"
+
+    .line 21
+    .line 22
+    invoke-direct {v0, v1, v2}, Lio/ktor/util/AttributeKey;-><init>(Ljava/lang/String;Lio/ktor/util/reflect/TypeInfo;)V
+
+    .line 23
+    .line 24
+    .line 25
+    sput-object v0, Lio/ktor/client/plugins/HttpClientPluginKt;->PLUGIN_INSTALLED_LIST:Lio/ktor/util/AttributeKey;
+
+    .line 26
+    .line 27
+    return-void
+    .line 28
+.end method
