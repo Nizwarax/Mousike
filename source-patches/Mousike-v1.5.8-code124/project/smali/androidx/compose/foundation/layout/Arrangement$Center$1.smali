@@ -1,0 +1,458 @@
+.class public final Landroidx/compose/foundation/layout/Arrangement$Center$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/compose/foundation/layout/Arrangement$Horizontal;
+.implements Landroidx/compose/foundation/layout/Arrangement$Vertical;
+
+
+# instance fields
+.field public final synthetic $r8$classId:I
+
+.field public final spacing:F
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->$r8$classId:I
+
+    .line 2
+    .line 3
+    packed-switch p1, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    const/4 p1, 0x0
+
+    .line 10
+    int-to-float p1, p1
+
+    .line 11
+    iput p1, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 12
+    .line 13
+    return-void
+
+    .line 14
+    :pswitch_0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 15
+    .line 16
+    .line 17
+    const/4 p1, 0x0
+
+    .line 18
+    int-to-float p1, p1
+
+    .line 19
+    iput p1, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 20
+    .line 21
+    return-void
+
+    .line 22
+    :pswitch_1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 23
+    .line 24
+    .line 25
+    const/4 p1, 0x0
+
+    .line 26
+    int-to-float p1, p1
+
+    .line 27
+    iput p1, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 28
+    .line 29
+    return-void
+
+    .line 30
+    :pswitch_2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 31
+    .line 32
+    .line 33
+    const/4 p1, 0x0
+
+    .line 34
+    int-to-float p1, p1
+
+    .line 35
+    iput p1, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 36
+    .line 37
+    return-void
+
+    .line 38
+    nop
+
+    .line 39
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+.end method
+
+
+# virtual methods
+.method public final arrange(ILandroidx/compose/ui/layout/MeasureScope;[I[I)V
+    .locals 0
+
+    iget p2, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->$r8$classId:I
+
+    packed-switch p2, :pswitch_data_0
+
+    const/4 p2, 0x0
+
+    .line 13
+    invoke-static {p1, p3, p4, p2}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceEvenly$foundation_layout_release(I[I[IZ)V
+
+    return-void
+
+    :pswitch_0
+    const/4 p2, 0x0
+
+    .line 14
+    invoke-static {p1, p3, p4, p2}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceBetween$foundation_layout_release(I[I[IZ)V
+
+    return-void
+
+    :pswitch_1
+    const/4 p2, 0x0
+
+    .line 15
+    invoke-static {p1, p3, p4, p2}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceAround$foundation_layout_release(I[I[IZ)V
+
+    return-void
+
+    :pswitch_2
+    const/4 p2, 0x0
+
+    .line 16
+    invoke-static {p1, p3, p4, p2}, Landroidx/compose/foundation/layout/Arrangement;->placeCenter$foundation_layout_release(I[I[IZ)V
+
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final arrange(Landroidx/compose/ui/unit/Density;I[ILandroidx/compose/ui/unit/LayoutDirection;[I)V
+    .locals 0
+
+    iget p1, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->$r8$classId:I
+
+    packed-switch p1, :pswitch_data_0
+
+    .line 1
+    sget-object p1, Landroidx/compose/ui/unit/LayoutDirection;->Ltr:Landroidx/compose/ui/unit/LayoutDirection;
+
+    if-ne p4, p1, :cond_0
+
+    const/4 p1, 0x0
+
+    .line 2
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceEvenly$foundation_layout_release(I[I[IZ)V
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x1
+
+    .line 3
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceEvenly$foundation_layout_release(I[I[IZ)V
+
+    :goto_0
+    return-void
+
+    .line 4
+    :pswitch_0
+    sget-object p1, Landroidx/compose/ui/unit/LayoutDirection;->Ltr:Landroidx/compose/ui/unit/LayoutDirection;
+
+    if-ne p4, p1, :cond_1
+
+    const/4 p1, 0x0
+
+    .line 5
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceBetween$foundation_layout_release(I[I[IZ)V
+
+    goto :goto_1
+
+    :cond_1
+    const/4 p1, 0x1
+
+    .line 6
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceBetween$foundation_layout_release(I[I[IZ)V
+
+    :goto_1
+    return-void
+
+    .line 7
+    :pswitch_1
+    sget-object p1, Landroidx/compose/ui/unit/LayoutDirection;->Ltr:Landroidx/compose/ui/unit/LayoutDirection;
+
+    if-ne p4, p1, :cond_2
+
+    const/4 p1, 0x0
+
+    .line 8
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceAround$foundation_layout_release(I[I[IZ)V
+
+    goto :goto_2
+
+    :cond_2
+    const/4 p1, 0x1
+
+    .line 9
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeSpaceAround$foundation_layout_release(I[I[IZ)V
+
+    :goto_2
+    return-void
+
+    .line 10
+    :pswitch_2
+    sget-object p1, Landroidx/compose/ui/unit/LayoutDirection;->Ltr:Landroidx/compose/ui/unit/LayoutDirection;
+
+    if-ne p4, p1, :cond_3
+
+    const/4 p1, 0x0
+
+    .line 11
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeCenter$foundation_layout_release(I[I[IZ)V
+
+    goto :goto_3
+
+    :cond_3
+    const/4 p1, 0x1
+
+    .line 12
+    invoke-static {p2, p3, p5, p1}, Landroidx/compose/foundation/layout/Arrangement;->placeCenter$foundation_layout_release(I[I[IZ)V
+
+    :goto_3
+    return-void
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final getSpacing-D9Ej5fM()F
+    .locals 1
+
+    .line 1
+    iget v0, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->$r8$classId:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    iget v0, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 7
+    .line 8
+    return v0
+
+    .line 9
+    :pswitch_0
+    iget v0, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 10
+    .line 11
+    return v0
+
+    .line 12
+    :pswitch_1
+    iget v0, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 13
+    .line 14
+    return v0
+
+    .line 15
+    :pswitch_2
+    iget v0, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->spacing:F
+
+    .line 16
+    .line 17
+    return v0
+
+    .line 18
+    nop
+
+    .line 19
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget v0, p0, Landroidx/compose/foundation/layout/Arrangement$Center$1;->$r8$classId:I
+
+    .line 2
+    .line 3
+    packed-switch v0, :pswitch_data_0
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "Arrangement#SpaceEvenly"
+
+    .line 7
+    .line 8
+    return-object v0
+
+    .line 9
+    :pswitch_0
+    const-string v0, "Arrangement#SpaceBetween"
+
+    .line 10
+    .line 11
+    return-object v0
+
+    .line 12
+    :pswitch_1
+    const-string v0, "Arrangement#SpaceAround"
+
+    .line 13
+    .line 14
+    return-object v0
+
+    .line 15
+    :pswitch_2
+    const-string v0, "Arrangement#Center"
+
+    .line 16
+    .line 17
+    return-object v0
+
+    .line 18
+    nop
+
+    .line 19
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
