@@ -17,8 +17,6 @@ APK resmi dan source ZIP tersedia di [GitHub Releases](https://github.com/Nizwar
 
 **Penting:** code125 menggunakan sertifikat yang sama dengan code124, sehingga dapat memperbarui code124 secara langsung. Code124 dan code125 memakai sertifikat berbeda dari code123: untuk beralih dari code123, versi sebelumnya harus dicopot terlebih dahulu; data yang hanya tersimpan di perangkat dapat terhapus. Cadangkan data lokal sebelum melanjutkan. Metadata updater ada di [`update.json`](update.json).
 
-Google OAuth saat ini masih berstatus **Testing**. Selama status ini, hanya akun Google yang terdaftar sebagai akun penguji yang dapat masuk.
-
 ## Tentang source code
 
 Direktori source memiliki cakupan berbeda:
